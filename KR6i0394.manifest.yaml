@@ -1,0 +1,54 @@
+canonical_identifier: bkk:krp/KR6i0394/v1
+canonical_location: https://kanripo.org/bkk/KR6i0394/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 佛說施燈功德經
+  identifiers:
+    alt_id:
+    - T16n0702
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T16/T16n0702.xml
+    old_id: T16n0702
+  edition:
+    short: bkk
+editions:
+- short: 元
+  label: 元
+  source_xml_id: wit1
+- short: 明
+  label: 明
+  source_xml_id: wit2
+- short: 宋
+  label: 宋
+  source_xml_id: wit3
+- short: 宮
+  label: 宮
+  source_xml_id: wit4
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0394_000.yaml, hash: 'sha256:32b9102deb50883b23d21a2830f8744b83a81ef5298af8530e917092c79df43a'}
+  - {seq: 1, filename: KR6i0394_001.yaml, hash: 'sha256:4fe273d9a6cdb5162f1b04f48ff7cb2da0983f5bfb56aecb6bffb83747ed7bd6'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6i0394_001.markers.yaml, hash: 'sha256:6106c7d6bbe43e646aa468b0046129e05b9ef1af22f8d9cbf4a7a3957daa2d48'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0394_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 6146
+  label: 佛說施燈功德經
+  type: juan
+  level: 1
+hash: sha256:4e8969aedeb1c6fad2f579d8948783fb5c198b0996f87c7833fc3dfd4ab1e9d5
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

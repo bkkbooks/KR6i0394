@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6i0394/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛說施燈功德經
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T16/T16n0702.xml
+    old_id: T16n0702
+hash: sha256:32b9102deb50883b23d21a2830f8744b83a81ef5298af8530e917092c79df43a
