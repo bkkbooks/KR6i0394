@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6i0394/v1
 canonical_location: https://kanripo.org/bkk/KR6i0394/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 佛說施燈功德經
   identifiers:
@@ -34,10 +34,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6i0394_000.yaml, hash: 'sha256:32b9102deb50883b23d21a2830f8744b83a81ef5298af8530e917092c79df43a'}
-  - {seq: 1, filename: KR6i0394_001.yaml, hash: 'sha256:4b35f44db5b7d428a4d40e7d3fd18f6a25e0098a0248c6461ccac2c53cee9aa8'}
+  - {seq: 1, filename: KR6i0394_001.yaml, hash: 'sha256:533d9f2e5b16a8ae4d0813309add6d302be20faa51da195472ff47517a7b40ca'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6i0394_000.markers.yaml, hash: 'sha256:0518bbad00800bf75ec972bcc661e60a8f3874be7ff2f38ea2d561e5e7db348f'}
-  - {seq: 1, role: markers, filename: assets/KR6i0394_001.markers.yaml, hash: 'sha256:756522b4538f14d22dfec822983ae86af6af9da660cc6e9d553f5891be376a45'}
+  - {seq: 1, role: markers, filename: assets/KR6i0394_001.markers.yaml, hash: 'sha256:0cb0929a79a7d975a9dee8914c50fcb100155403531ecdfbec0df6b3b0e56e6d'}
 table_of_contents:
 - ref:
     seq: 1
@@ -49,4 +49,7 @@ table_of_contents:
   label: 佛說施燈功德經
   type: juan
   level: 1
-hash: sha256:0daf54d0a340d2b8b07be29ab45b767a8ade86ee4a8e6dcc382783d703ba4b82
+hash: sha256:a6a94979daaa3bb140c0a23e967c668916a04a21d1b9de3aa438087448aabc9f
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
